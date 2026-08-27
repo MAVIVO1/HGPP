@@ -1,5 +1,5 @@
-<svg width="100%" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yetemare Yibeltal Profile Card">
-  <title>Yetemare Yibeltal Profile Card</title>
+<svg width="100%" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hailemariam Geremew Profile Card">
+  <title>Hailemariam Geremew Profile Card</title>
 
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -37,11 +37,11 @@
 
   <!-- Avatar circle -->
   <circle cx="92" cy="88" r="35" fill="#0d1117" stroke="#00C2FF" stroke-width="1.5"/>
-  <text x="92" y="83" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="16" font-weight="800" fill="#00C2FF">YY</text>
+  <text x="92" y="83" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="16" font-weight="800" fill="#00C2FF">HG</text>
   <text x="92" y="99" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#1D9E75" letter-spacing="2">DEV</text>
 
   <!-- Name -->
-  <text x="92" y="148" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="12" font-weight="700" fill="#e6edf3">Yetemare Yibeltal</text>
+  <text x="92" y="148" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="12" font-weight="700" fill="#e6edf3">Hailemariam Geremew</text>
 
   <!-- Role pill -->
   <rect x="14" y="155" width="156" height="17" rx="8" fill="#00C2FF" opacity="0.1"/>
@@ -71,13 +71,13 @@
   <text x="92" y="285" text-anchor="middle" font-family="sans-serif" font-size="9" font-style="italic" fill="#8b949e">"Code. Ship. Repeat."</text>
 
   <!-- Email -->
-  <text x="92" y="308" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#378ADD">yibeltalyitayew25@gmail.com</text>
+  <text x="92" y="308" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#378ADD">hailemariamgeremew828@gmail.com</text>
 
   <!-- Blinking cursor + GitHub handle -->
   <rect x="28" y="328" width="6" height="10" fill="#00C2FF">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
-  <text x="40" y="338" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">github.com/Yetemare-Yibeltal</text>
+  <text x="40" y="338" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">github.com/MAVIOVO1</text>
 
   <!-- ── Right Panel ── -->
 
@@ -186,7 +186,7 @@
   <circle cx="236" cy="320" r="4" fill="#EF9F27" opacity="0.8"/>
   <circle cx="250" cy="320" r="4" fill="#639922" opacity="0.8"/>
   <!-- Terminal path -->
-  <text x="264" y="324" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">~/Yetemare-Yibeltal</text>
+  <text x="264" y="324" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">~/MAVIOVO1</text>
   <!-- Command line -->
   <text x="213" y="342" font-family="monospace, Courier New, Courier" font-size="10" fill="#00C2FF">$ </text>
   <text x="227" y="342" font-family="monospace, Courier New, Courier" font-size="10" fill="#e6edf3">git push origin main --force-with-lease</text>
