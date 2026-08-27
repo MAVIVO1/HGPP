@@ -1,0 +1,199 @@
+<svg width="100%" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yetemare Yibeltal Profile Card">
+  <title>Yetemare Yibeltal Profile Card</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C2FF"/>
+      <stop offset="100%" stop-color="#378ADD"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="700" height="380" rx="14" fill="url(#bg)"/>
+  <rect width="700" height="380" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+  <!-- Top accent bar -->
+  <rect width="700" height="3" rx="1.5" fill="url(#blue)"/>
+
+  <!-- ── Left Panel ── -->
+  <rect width="185" height="380" rx="14" fill="#010409" opacity="0.6"/>
+  <!-- Divider line — starts below top accent bar -->
+  <rect x="184" y="10" width="1" height="360" fill="#30363d" opacity="0.5"/>
+
+  <!-- Spinning orbit rings -->
+  <circle cx="92" cy="88" r="52" fill="none" stroke="#00C2FF" stroke-width="1.5" stroke-dasharray="8 4" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 92 88" to="360 92 88" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="92" cy="88" r="43" fill="none" stroke="#1D9E75" stroke-width="0.8" stroke-dasharray="4 8" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="360 92 88" to="0 92 88" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Avatar circle -->
+  <circle cx="92" cy="88" r="35" fill="#0d1117" stroke="#00C2FF" stroke-width="1.5"/>
+  <text x="92" y="83" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="16" font-weight="800" fill="#00C2FF">YY</text>
+  <text x="92" y="99" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#1D9E75" letter-spacing="2">DEV</text>
+
+  <!-- Name -->
+  <text x="92" y="148" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="12" font-weight="700" fill="#e6edf3">Yetemare Yibeltal</text>
+
+  <!-- Role pill -->
+  <rect x="14" y="155" width="156" height="17" rx="8" fill="#00C2FF" opacity="0.1"/>
+  <rect x="14" y="155" width="156" height="17" rx="8" fill="none" stroke="#00C2FF" stroke-width="0.6" opacity="0.5"/>
+  <text x="92" y="167" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#00C2FF">Full Stack · MERN · AI/ML</text>
+
+  <!-- Location -->
+  <text x="92" y="190" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8b949e">🇪🇹 Ethiopia</text>
+
+  <!-- Pulsing "Open to work" indicator -->
+  <circle cx="30" cy="204" r="4" fill="#1D9E75">
+    <animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="42" y="208" font-family="sans-serif" font-size="10" fill="#1D9E75">Open to work</text>
+
+  <!-- University -->
+  <text x="92" y="228" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8b949e">🏛 Injibara University</text>
+  <text x="92" y="241" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8b949e">Software Eng · 2022–Present</text>
+
+  <!-- Freelance badge -->
+  <rect x="14" y="250" width="156" height="16" rx="4" fill="#1D9E75" opacity="0.1"/>
+  <rect x="14" y="250" width="156" height="16" rx="4" fill="none" stroke="#1D9E75" stroke-width="0.4" opacity="0.5"/>
+  <text x="92" y="262" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#1D9E75">💼 Freelance Dev · 2023–Now</text>
+
+  <!-- Motto -->
+  <text x="92" y="285" text-anchor="middle" font-family="sans-serif" font-size="9" font-style="italic" fill="#8b949e">"Code. Ship. Repeat."</text>
+
+  <!-- Email -->
+  <text x="92" y="308" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="8" fill="#378ADD">yibeltalyitayew25@gmail.com</text>
+
+  <!-- Blinking cursor + GitHub handle -->
+  <rect x="28" y="328" width="6" height="10" fill="#00C2FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="338" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">github.com/Yetemare-Yibeltal</text>
+
+  <!-- ── Right Panel ── -->
+
+  <!-- Stat cards row -->
+  <!-- Commits -->
+  <rect x="205" y="15" width="110" height="52" rx="8" fill="#0C447C" opacity="0.15"/>
+  <rect x="205" y="15" width="110" height="52" rx="8" fill="none" stroke="#378ADD" stroke-width="0.6" opacity="0.6"/>
+  <text x="260" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8b949e">⚡ Commits</text>
+  <text x="260" y="54" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="18" font-weight="700" fill="#00C2FF">1.2k+</text>
+
+  <!-- Pull Requests -->
+  <rect x="325" y="15" width="110" height="52" rx="8" fill="#085041" opacity="0.15"/>
+  <rect x="325" y="15" width="110" height="52" rx="8" fill="none" stroke="#1D9E75" stroke-width="0.6" opacity="0.6"/>
+  <text x="380" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8b949e">🔀 Pull Requests</text>
+  <text x="380" y="54" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="18" font-weight="700" fill="#1D9E75">340+</text>
+
+  <!-- Stars -->
+  <rect x="445" y="15" width="110" height="52" rx="8" fill="#3C3489" opacity="0.12"/>
+  <rect x="445" y="15" width="110" height="52" rx="8" fill="none" stroke="#7F77DD" stroke-width="0.6" opacity="0.6"/>
+  <text x="500" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8b949e">⭐ Stars</text>
+  <text x="500" y="54" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="18" font-weight="700" fill="#7F77DD">210+</text>
+
+  <!-- Best Streak -->
+  <rect x="565" y="15" width="120" height="52" rx="8" fill="#3C1D13" opacity="0.15"/>
+  <rect x="565" y="15" width="120" height="52" rx="8" fill="none" stroke="#D85A30" stroke-width="0.6" opacity="0.6"/>
+  <text x="625" y="34" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#8b949e">🔥 Best Streak</text>
+  <text x="625" y="54" text-anchor="middle" font-family="monospace, Courier New, Courier" font-size="18" font-weight="700" fill="#D85A30">87 days</text>
+
+  <line x1="200" y1="78" x2="692" y2="78" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- ── Skill Bars ── -->
+  <text x="205" y="96" font-family="sans-serif" font-size="11" font-weight="600" fill="#e6edf3">🛠 Top Languages &amp; Skills</text>
+
+  <!-- JavaScript / TypeScript — 88% of 480 = 422 -->
+  <text x="205" y="116" font-family="sans-serif" font-size="10" fill="#8b949e">JavaScript / TypeScript</text>
+  <text x="688" y="116" text-anchor="end" font-family="sans-serif" font-size="10" fill="#EF9F27">88%</text>
+  <rect x="205" y="120" width="480" height="7" rx="3" fill="#21262d"/>
+  <rect x="205" y="120" width="0" height="7" rx="3" fill="url(#blue)">
+    <animate attributeName="width" from="0" to="422" dur="2s" fill="freeze" begin="0.3s"/>
+  </rect>
+
+  <!-- Python — 75% of 480 = 360 -->
+  <text x="205" y="142" font-family="sans-serif" font-size="10" fill="#8b949e">Python</text>
+  <text x="688" y="142" text-anchor="end" font-family="sans-serif" font-size="10" fill="#378ADD">75%</text>
+  <rect x="205" y="146" width="480" height="7" rx="3" fill="#21262d"/>
+  <rect x="205" y="146" width="0" height="7" rx="3" fill="#378ADD">
+    <animate attributeName="width" from="0" to="360" dur="2s" fill="freeze" begin="0.5s"/>
+  </rect>
+
+  <!-- React / Node.js — 82% of 480 = 394 -->
+  <text x="205" y="168" font-family="sans-serif" font-size="10" fill="#8b949e">React / Node.js</text>
+  <text x="688" y="168" text-anchor="end" font-family="sans-serif" font-size="10" fill="#1D9E75">82%</text>
+  <rect x="205" y="172" width="480" height="7" rx="3" fill="#21262d"/>
+  <rect x="205" y="172" width="0" height="7" rx="3" fill="url(#green)">
+    <animate attributeName="width" from="0" to="394" dur="2s" fill="freeze" begin="0.7s"/>
+  </rect>
+
+  <!-- AI / ML — 60% of 480 = 288 -->
+  <text x="205" y="194" font-family="sans-serif" font-size="10" fill="#8b949e">AI / ML — Deep Learning</text>
+  <text x="688" y="194" text-anchor="end" font-family="sans-serif" font-size="10" fill="#7F77DD">60%</text>
+  <rect x="205" y="198" width="480" height="7" rx="3" fill="#21262d"/>
+  <rect x="205" y="198" width="0" height="7" rx="3" fill="#7F77DD">
+    <animate attributeName="width" from="0" to="288" dur="2s" fill="freeze" begin="0.9s"/>
+  </rect>
+
+  <!-- DevOps / Firebase / Cloud — 65% of 480 = 312 -->
+  <text x="205" y="220" font-family="sans-serif" font-size="10" fill="#8b949e">DevOps / Firebase / Cloud</text>
+  <text x="688" y="220" text-anchor="end" font-family="sans-serif" font-size="10" fill="#D85A30">65%</text>
+  <rect x="205" y="224" width="480" height="7" rx="3" fill="#21262d"/>
+  <rect x="205" y="224" width="0" height="7" rx="3" fill="#D85A30">
+    <animate attributeName="width" from="0" to="312" dur="2s" fill="freeze" begin="1.1s"/>
+  </rect>
+
+  <line x1="200" y1="242" x2="692" y2="242" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- ── Featured Projects ── -->
+  <text x="205" y="260" font-family="sans-serif" font-size="11" font-weight="600" fill="#e6edf3">🚀 Featured Projects</text>
+
+  <!-- Netlify Clone -->
+  <rect x="205" y="267" width="118" height="22" rx="6" fill="#0C447C" opacity="0.2"/>
+  <rect x="205" y="267" width="118" height="22" rx="6" fill="none" stroke="#378ADD" stroke-width="0.5"/>
+  <text x="264" y="282" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#B5D4F4">🌐 Netlify Clone</text>
+
+  <!-- Amazon Clone -->
+  <rect x="332" y="267" width="118" height="22" rx="6" fill="#085041" opacity="0.2"/>
+  <rect x="332" y="267" width="118" height="22" rx="6" fill="none" stroke="#1D9E75" stroke-width="0.5"/>
+  <text x="391" y="282" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#9FE1CB">🛒 Amazon Clone</text>
+
+  <!-- Zoom App -->
+  <rect x="459" y="267" width="100" height="22" rx="6" fill="#3C3489" opacity="0.2"/>
+  <rect x="459" y="267" width="100" height="22" rx="6" fill="none" stroke="#7F77DD" stroke-width="0.5"/>
+  <text x="509" y="282" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#AFA9EC">📹 Zoom App</text>
+
+  <!-- AI / ML Explorer -->
+  <rect x="568" y="267" width="118" height="22" rx="6" fill="#3C1D13" opacity="0.2"/>
+  <rect x="568" y="267" width="118" height="22" rx="6" fill="none" stroke="#D85A30" stroke-width="0.5"/>
+  <text x="627" y="282" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#F0997B">🤖 AI / ML Explorer</text>
+
+  <line x1="200" y1="300" x2="692" y2="300" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- ── Terminal Block ── -->
+  <rect x="205" y="308" width="480" height="58" rx="8" fill="#010409" opacity="0.9"/>
+  <rect x="205" y="308" width="480" height="58" rx="8" fill="none" stroke="#30363d" stroke-width="0.5"/>
+  <!-- Traffic-light dots -->
+  <circle cx="222" cy="320" r="4" fill="#E24B4A" opacity="0.8"/>
+  <circle cx="236" cy="320" r="4" fill="#EF9F27" opacity="0.8"/>
+  <circle cx="250" cy="320" r="4" fill="#639922" opacity="0.8"/>
+  <!-- Terminal path -->
+  <text x="264" y="324" font-family="monospace, Courier New, Courier" font-size="9" fill="#1D9E75">~/Yetemare-Yibeltal</text>
+  <!-- Command line -->
+  <text x="213" y="342" font-family="monospace, Courier New, Courier" font-size="10" fill="#00C2FF">$ </text>
+  <text x="227" y="342" font-family="monospace, Courier New, Courier" font-size="10" fill="#e6edf3">git push origin main --force-with-lease</text>
+  <!-- Output line -->
+  <text x="213" y="357" font-family="monospace, Courier New, Courier" font-size="10" fill="#1D9E75">✓ Deployed · Full Stack · Backend · AI/ML · MERN</text>
+  <!-- Blinking cursor -->
+  <rect x="648" y="348" width="6" height="10" fill="#00C2FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
