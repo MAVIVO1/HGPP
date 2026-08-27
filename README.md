@@ -1,3 +1,6 @@
+![logo](https://github.com/MAVIVO1/HGPP/blob/main/profile-card.svg)
+
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9900CC,25:00CCAA,50:00CCAA,100:9900CC&height=250&section=header&text=Hailemariam%20Geremew&fontSize=60&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Full%20Stack%20Engineer%20%7C%20MERN%20%7C%20Software%20Engineering%20Student&descAlignY=58&descSize=18&descColor=FFFFFF" width="100%"/>
